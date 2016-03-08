@@ -1,6 +1,8 @@
 machine:
   environment:
     GCLOUD_PROJECT: "tala-holding"
+  node:
+    version: 5.1.0
 
 dependencies:
   pre:
