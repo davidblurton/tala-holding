@@ -1,6 +1,6 @@
 machine:
   environment:
-    GCLOUD_PROJECT: "salmon-design"
+    GCLOUD_PROJECT: "tala-holding"
 
 dependencies:
   pre:
@@ -22,8 +22,3 @@ deployment:
     branch: master
     commands:
     - gcloud -q preview app deploy app.yaml --promote --version=1
-
-  staging:
-    branch: /.*/
-    commands:
-    - gcloud -q preview app deploy app.yaml --no-promote --version=$CIRCLE_BRANCH

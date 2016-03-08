@@ -4,8 +4,7 @@
   "description": "Site explaining tala.is",
   "scripts": {
     "start": "gulp server",
-    "build": "gulp build --prod",
-    "deploy": "./bin/deploy.sh"
+    "build": "gulp build --prod"
   },
   "repository": {
     "type": "git",
