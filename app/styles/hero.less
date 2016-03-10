@@ -1,25 +1,37 @@
 .Hero {
   font-size: 1.5rem;
-  background-color: @grey;
   padding: 1rem 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  margin-top: -100px;
 
   .Hero-headline {
     width: 50%;
     line-height: 1.2;
-    padding-right: 1rem;
   }
 
   .Hero-demo {
-    width: 50%;
-    padding-left: 1rem;
+    margin-left: 5rem;
+    background-image: url(/iphone.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: calc(865px / 2);
+    height: calc(1763px / 2);
+    position: relative;
+  }
 
-    img {
-      width: 100%;
-      max-width: 100%;
-    }
+  .Hero-gif {
+    background-image: url(https://s3.amazonaws.com/f.cl.ly/items/1P1Y150A3Z1S0c3Z0u1t/Screen%20Recording%202016-03-10%20at%2010.22%20pm.gif?v=868ebe63);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 108px;
+    left: 28px;
+    width: 371px;
+    height: 623px;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .blue {
