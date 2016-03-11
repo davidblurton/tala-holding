@@ -48,9 +48,9 @@ handlers:
 - url: /
   static_files: dist/index.html
   upload: dist/index.html
-  expiration: "1h"
+  expiration: "5m"
 
 - url: /english
   static_files: dist/english.html
   upload: dist/english.html
-  expiration: "1h"
+  expiration: "5m"
