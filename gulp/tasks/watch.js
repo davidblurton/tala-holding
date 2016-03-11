@@ -18,7 +18,7 @@ module.exports = function(gulp) {
       gulp.start('copy');
     });
 
-    watch(gulp.config.source + '/views/**/*.jade', function() {
+    watch(gulp.config.source + '/views/**/*', function() {
       gulp.start('jade');
     });
 
