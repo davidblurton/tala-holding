@@ -31,18 +31,21 @@ html
       .container
         p.lead This site has been closed down indefinitely due to licensing restrictions.
 
-        p tala.islensku uses publicly funded data from&nbsp;
-          a(href="http://bin.arnastofnun.is/DMII/") BÍN
+        p #[strong tala.is]lensku uses publicly funded data from&nbsp;
+          a(href="http://bin.arnastofnun.is/DMII/" title="Beygingarlýsing íslensks nútímamáls") BÍN
           |, but the licence doesn’t allow us to display the word forms.
 
         p Making this data freely available would make it possible for developers to create new tools that could help foreigners and Icelanders alike.
 
         p We want to see this data made available under a&nbsp;
-          a(href="https://creativecommons.org/licenses/" target="_blank") creative commons licence.
+          a(href="https://creativecommons.org/licenses/" target="_blank") creative commons licence
+          | .
 
     .SignUp
       .container
-        p tala.islensku works right now as demonstrated. If you would find it useful please sign up for updates and help us re-launch it.
+        h2 We need your help
+        p #[strong tala.is]lensku works right now as demonstrated. If you would find it useful please sign up and help us re-launch it.
+        include ./includes/mailchimp.html
 
     .Footer
       p
