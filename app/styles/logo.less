@@ -1,5 +1,5 @@
 .Logo {
-  margin-bottom: 1rem;
+  display: inline-block;
   background: no-repeat url(logo.svg);
   background-size: cover;
   width: 267px;
@@ -7,4 +7,16 @@
 }
 
 .Logo-title {
+}
+
+.Header.container {
+  max-width: none;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  text-align: center;
+
+  @media @tablet {
+    text-align: left;
+    max-width: 960px;
+  }
 }
