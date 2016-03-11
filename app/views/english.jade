@@ -25,36 +25,36 @@ html
     .Hero
       h1.Hero-headline
         span.blue tala.is
-        | lensku er ný leið til að fletta upp orðum og&nbsp;beygingum.
+        | lensku is a new way to discover Icelandic words.
       .Hero-demo
-        img.Hero-gif.is(src="demo_is.gif" alt="Tala.is app")
+        img.Hero-gif.en(src="demo_en.gif" alt="Tala.is app")
 
     .Takedown
       .container
-        p.lead Þessi vefur er lokaður ótímabundið þar sem hann uppfyllir ekki skilmála.
+        p.lead This site has been closed down indefinitely due to licensing restrictions.
 
-        p Vefurinn notar orðagrunn frá&nbsp;
+        p #[strong tala.is]lensku uses publicly funded data from&nbsp;
           a(href="http://bin.arnastofnun.is/DMII/" title="Beygingarlýsing íslensks nútímamáls") BÍN
-          |. Þó svo að öll vinna sem fór í að byggja hann hafi verið fjármögnuð með skatttekjum, þá er ekki leyfilegt að endurbirta beygingarmyndir orða samkvæmt skilmálum.
+          |, but the licence doesn’t allow us to display the word forms.
 
-        p Það að gera þessi gögn opin án takmarkanna mun hagnast öllum, bæði þeim sem vilja byggja á þeim og neytendum.
+        p Making this data freely available would make it possible for developers to create new tools that could help foreigners and Icelanders alike.
 
-        p Því leggjum við til að þessi gögn verði opnuð undir&nbsp;
-          a(href="https://creativecommons.org/licenses/" target="_blank") creative commons
-          |  leyfinu.
+        p We want to see this data made available under a&nbsp;
+          a(href="https://creativecommons.org/licenses/" target="_blank") creative commons licence
+          | .
 
     .SignUp
       .container
-        h2 Við þurfum þína hjálp
-        p #[strong tala.is]lensku virkar nú þegar eins og sýnt er. Ef þú heldur að þú myndir nota vefinn og hefur áhuga á að fylgjast með framþróun mála, þá máttu endilega skrá þig hérna og hjálpa okkur að koma honum í loftið aftur.
-
-        include ./includes/mailchimp-is.html
+        h2 We need your help
+        p #[strong tala.is]lensku works right now as demonstrated. If you would find it useful please sign up and help us re-launch it.
+        include ./includes/mailchimp.html
 
     .Footer
       p
-        span tala.islensku er verkefni eftir&nbsp;
+        span tala.islensku is an experimental project by&nbsp;
           a(href="http://davidblurton.com" target="_blank") David Blurton
           | .
       p
-        span Fylgstu með&nbsp;
+        span Follow&nbsp;
           a(href="https://twitter.com/talaislensku") @talaislensku
+          |  for updates.
